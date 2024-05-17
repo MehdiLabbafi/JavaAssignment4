@@ -33,8 +33,8 @@ public class Warsim {
   public static int damage = 0;
   public static String who = "Player";
   public static String winner = "";
-  public static int winCount = 0; // مقداردهی اولیه برای winCount به صفر
-  public static int lossCount = 0; // مقداردهی اولیه برای lossCount به صفر
+  public static int winCount = 0; // Initialize winCount to 0
+  public static int lossCount = 0; // Initialize lossCount to 0
 
   public static void main(String[] args) {
     ink.welcomeMessage();
